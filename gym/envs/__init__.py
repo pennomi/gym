@@ -77,6 +77,13 @@ register(
     reward_threshold=-100
 )
 
+register(
+    id='ArmExtension-v0',
+    entry_point='gym.envs.classic_control:ArmExtensionEnv',
+    timestep_limit=200,
+    reward_threshold=-100
+)
+
 # Box2d
 # ----------------------------------------
 
